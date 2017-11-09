@@ -1,0 +1,21 @@
+{
+    "name": "CSS Extractor",
+    "identifier": "com.fjord.sketch-css-extractor",
+    "version": "0.3",
+    "description": "Extract CSS from all Symbols",
+    "authorEmail": "j@ffrey.co",
+    "author": "Jeffrey Harris",
+    "commands": [
+        {
+            "name": "Extract",
+            "identifier": "extractCSS",
+            "script": "main.js",
+            "handler": "extractCSS"
+        }
+    ],
+    "menu": {
+        "items": [
+            "extractCSS"
+        ]
+    }
+}
